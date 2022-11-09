@@ -52,7 +52,9 @@ body {
     font-weight: 400;
     line-height: 1.5;
     color: #212529;
-    background-color: #fff;
+    /* background-image: url(../main-html/assets/images/backgrounds/fire.jpg);
+    background-repeat: no-repeat; */
+    text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent
 }

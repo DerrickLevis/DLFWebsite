@@ -49,10 +49,16 @@
 
 body {
     font-family: var(--oxpins-font);
-    color: var(--oxpins-gray);
+    color: wheat;
     font-size: 15px;
     line-height: 30px;
     font-weight: 500;
+     background: url(../images/backgrounds/fire.jpg) no-repeat;
+     
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;  
+    
 }
 
 body.locked {
@@ -143,6 +149,7 @@ ul {
 .container {
     padding-left: 15px;
     padding-right: 15px;
+    padding-top: 0px;
 }
 
 @media (min-width: 1200px) {
@@ -297,8 +304,8 @@ ul {
 
 .section-title__title {
     margin: 0;
-    color: var(--oxpins-black);
-    font-size: 50px;
+    color: white;
+    font-size: 35px;
     line-height: 60px;
     font-weight: 900;
     letter-spacing: -0.04em;
@@ -2868,7 +2875,7 @@ body.locked .page-wrapper {
     right: 0;
     height: 420px;
     background: rgb(33, 45, 43);
-    background: linear-gradient(180deg, rgba(33, 45, 43, 0.969625350140056) 7%, rgba(33, 45, 43, 0) 100%);
+    background: transparent;
     z-index: 1;
 }
 
@@ -4988,7 +4995,7 @@ body.locked .page-wrapper {
     background-position: center;
     background-repeat: no-repeat;
     mix-blend-mode: luminosity;
-    opacity: 0.03;
+    opacity: 0.08;
     z-index: -1;
 }
 
@@ -5004,7 +5011,7 @@ body.locked .page-wrapper {
 .site-footer__top {
     position: relative;
     display: block;
-    padding: 100px 0 98px;
+    padding: 100px 0 18px;
 }
 
 .footer-widget__about {
@@ -7440,7 +7447,7 @@ body.locked .page-wrapper {
 .testimonial-three {
     position: relative;
     display: block;
-    padding: 0 0 140px;
+    padding: 0 0 35px;
 }
 
 .testimonial-three .section-title {
@@ -7627,7 +7634,7 @@ body.locked .page-wrapper {
     bottom: 0;
     left: 0;
     width: 807px;
-    opacity: 0.08;
+    opacity: 0.2;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
@@ -10928,7 +10935,7 @@ body.locked .page-wrapper {
 .about-four {
     position: relative;
     display: block;
-    padding: 120px 0 0;
+    padding: 40px 0 0;
 }
 
 .about-four__left {
