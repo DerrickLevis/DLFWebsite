@@ -48,7 +48,7 @@
 }
 
 body {
-    font-family: var(--oxpins-font);
+    font-family: Arial, Helvetica, sans-serif;
     color: ghostwhite;
     font-size: 19px;
     line-height: 30px;
@@ -103,7 +103,7 @@ h4,
 h5,
 h6 {
     color: var(--oxpins-white-rgb);
-    font-family: var(--oxpins-font-two);
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
 
@@ -299,7 +299,7 @@ ul {
     font-weight: 700;
     line-height: 24px;
     margin-bottom: 10px;
-    font-family: var(--oxpins-font-three);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .section-title__title {
@@ -310,6 +310,7 @@ ul {
     font-weight: 900;
     letter-spacing: -0.04em;
     margin-top: 6px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .bootstrap-select .btn-light:not(:disabled):not(.disabled).active,
@@ -410,7 +411,7 @@ ul {
     display: inline-block;
     width: 50px;
     height: 50px;
-    background:goldenrod;
+    background:var(--oxpins-primary);
     position: fixed;
     bottom: 40px;
     right: 40px;
@@ -585,7 +586,7 @@ ul {
     font-size: 24px;
     font-weight: 700;
     color: var(--oxpins-black);
-    font-family: var(--oxpins-font-three);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .main-menu__volunteers-text a {
@@ -682,7 +683,7 @@ ul {
     font-size: 14px;
     font-weight: 700;
     line-height: 20px;
-    font-family: var(--oxpins-font);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .main-menu__right-top-address-list li .content h5 a {
@@ -1332,7 +1333,7 @@ ul {
     line-height: 30px;
     color: #ffffff;
     font-size: 14px;
-    font-family: var(--oxpins-font, "Rubik", sans-serif);
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
     height: 46px;
     -webkit-box-align: center;
@@ -1603,7 +1604,7 @@ ul {
     font-weight: 700;
     color: var(--oxpins-black);
     margin-top: 17px;
-    font-family: var(--oxpins-font);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .mobile-nav__wrapper .home-showcase .row [class*=col-] {
@@ -1757,7 +1758,7 @@ ul {
     font-size: 24px;
     font-weight: 700;
     color: var(--oxpins-black);
-    font-family: var(--oxpins-font-three);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .main-menu-two__volunteers-text a {
@@ -1855,7 +1856,7 @@ ul {
     font-size: 14px;
     font-weight: 700;
     line-height: 20px;
-    font-family: var(--oxpins-font);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .main-menu-two__right-top-address-list li .content h5 a {
@@ -2101,7 +2102,7 @@ ul {
     font-size: 20px;
     font-weight: 700;
     line-height: 20px;
-    font-family: var(--oxpins-font-three);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .main-menu-three__volunteers-text a {
@@ -2154,7 +2155,7 @@ ul {
     font-size: 20px;
     color: var(--oxpins-white);
     font-weight: 700;
-    font-family: var(--oxpins-font-three);
+    font-family: Arial, Helvetica, sans-serif;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
 }
@@ -2475,7 +2476,7 @@ body.locked .page-wrapper {
     color: var(--oxpins-primary);
     font-weight: 700;
     line-height: 40px;
-    font-family: var(--oxpins-font-three);
+    font-family: Arial, Helvetica, sans-serif;
     opacity: 0;
     visibility: hidden;
     -webkit-transform: translateY(-120px);
@@ -2686,7 +2687,7 @@ body.locked .page-wrapper {
     color: var(--oxpins-primary);
     font-weight: 700;
     line-height: 30px;
-    font-family: var(--oxpins-font-three);
+    font-family: Arial, Helvetica, sans-serif;
     opacity: 0;
     visibility: hidden;
     -webkit-transform: translateY(-120px);
@@ -3301,7 +3302,7 @@ body.locked .page-wrapper {
     font-size: 18px;
     color: var(--oxpins-black);
     line-height: 18px;
-    font-family: var(--oxpins-font-three);
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
 }
 
@@ -3514,7 +3515,7 @@ body.locked .page-wrapper {
     font-size: 24px;
     color: var(--oxpins-primary);
     font-weight: 700;
-    font-family: var(--oxpins-font-three);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .become-volunteer-one__title {
@@ -3662,7 +3663,7 @@ body.locked .page-wrapper {
     font-size: 18px;
     color: var(--oxpins-black);
     line-height: 18px;
-    font-family: var(--oxpins-font-three);
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
 }
 
@@ -3870,7 +3871,7 @@ body.locked .page-wrapper {
 .feature-one__text {
     font-size: 24px;
     color: #98a8a5;
-    font-family: var(--oxpins-font-three);
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     line-height: 34px;
     padding-top: 21px;
@@ -4170,7 +4171,7 @@ body.locked .page-wrapper {
     font-size: 24px;
     color: var(--oxpins-primary);
     font-weight: 700;
-    font-family: var(--oxpins-font-three);
+    font-family: Arial, Helvetica, sans-serif;
     line-height: 24px;
 }
 
@@ -4409,7 +4410,7 @@ body.locked .page-wrapper {
     color: var(--oxpins-black);
     font-weight: 700;
     line-height: 24px;
-    font-family: var(--oxpins-font-three);
+    font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 8px;
 }
 
@@ -4672,7 +4673,7 @@ body.locked .page-wrapper {
     font-size: 60px;
     color: var(--oxpins-white);
     font-weight: 900;
-    font-family: var(--oxpins-font-two) !important;
+    font-family: Arial, Helvetica, sans-serif !important;
     letter-spacing: -0.04em;
     line-height: 60px !important;
 }
@@ -4681,7 +4682,7 @@ body.locked .page-wrapper {
     font-size: 60px;
     color: var(--oxpins-white);
     font-weight: 900;
-    font-family: var(--oxpins-font-two);
+    font-family: Arial, Helvetica, sans-serif;
     letter-spacing: -0.04em;
     line-height: 60px;
     position: relative;
@@ -4694,7 +4695,7 @@ body.locked .page-wrapper {
     font-size: 24px;
     color: #89d3c6;
     font-weight: 700;
-    font-family: var(--oxpins-font-three);
+    font-family: Arial, Helvetica, sans-serif;
     line-height: 24px;
 }
 
@@ -4801,7 +4802,7 @@ body.locked .page-wrapper {
 .news-one__date p {
     font-size: 18px;
     color: var(--oxpins-primary);
-    font-family: var(--oxpins-font-three);
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     line-height: 18px;
 }
@@ -5179,6 +5180,7 @@ body.locked .page-wrapper {
 }
 
 .footer-widget__contact-text {
+    font-family: Arial, Helvetica, sans-serif;
     color: #98a8a5;
     font-weight: 400;
     padding-bottom: 10px;
@@ -5303,7 +5305,7 @@ body.locked .page-wrapper {
 .site-footer__bottom {
     position: relative;
     display: block;
-    background-color: var(--oxpins-primary);
+    background-color: goldenrod;
 }
 
 .site-footer__bottom-inner {
@@ -5384,7 +5386,7 @@ body.locked .page-wrapper {
 .feature-two__tagline {
     font-size: 24px;
     color: var(--oxpins-primary);
-    font-family: var(--oxpins-font-three);
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     line-height: 24px;
 }
@@ -5520,7 +5522,7 @@ body.locked .page-wrapper {
     font-size: 60px;
     color: var(--oxpins-primary);
     font-weight: 700;
-    font-family: var(--oxpins-font-three);
+    font-family: Arial, Helvetica, sans-serif;
     line-height: 60px;
 }
 
@@ -5940,7 +5942,7 @@ body.locked .page-wrapper {
     text-transform: uppercase;
     font-weight: 800;
     margin-left: 10px;
-    font-family: var(--oxpins-font);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .causes-two__carousel.owl-theme .owl-nav .owl-next p {
@@ -5948,7 +5950,7 @@ body.locked .page-wrapper {
     color: var(--oxpins-black);
     text-transform: uppercase;
     font-weight: 800;
-    font-family: var(--oxpins-font);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .causes-two__carousel.owl-theme .owl-nav .owl-next .fa-angle-right:before {
@@ -6063,7 +6065,7 @@ body.locked .page-wrapper {
     font-size: 20px;
     color: var(--oxpins-primary);
     line-height: 20px;
-    font-family: var(--oxpins-font-three);
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
 }
 
@@ -6321,7 +6323,7 @@ body.locked .page-wrapper {
     font-size: 24px;
     color: var(--oxpins-white);
     font-weight: 700;
-    font-family: var(--oxpins-font-three);
+    font-family: Arial, Helvetica, sans-serif;
     line-height: 24px;
 }
 
@@ -6494,7 +6496,7 @@ body.locked .page-wrapper {
     font-size: 16px;
     color: var(--oxpins-primary);
     font-weight: 700;
-    font-family: var(--oxpins-font-three);
+    font-family: Arial, Helvetica, sans-serif;
     line-height: 16px;
 }
 
@@ -6658,7 +6660,7 @@ body.locked .page-wrapper {
     color: gold;
     font-size: 16px;
     font-weight: 700;
-    font-family: var(--oxpins-font);
+    font-family: Arial, Helvetica, sans-serif;
     line-height: 25px;
 }
 
@@ -6756,7 +6758,7 @@ body.locked .page-wrapper {
 .news-two__date-one p {
     font-size: 18px;
     color: var(--oxpins-primary);
-    font-family: var(--oxpins-font-three);
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     line-height: 18px;
 }
@@ -6901,7 +6903,7 @@ body.locked .page-wrapper {
 .news-two__date-two p {
     font-size: 18px;
     color: var(--oxpins-primary);
-    font-family: var(--oxpins-font-three);
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     line-height: 18px;
 }
@@ -7129,7 +7131,7 @@ body.locked .page-wrapper {
 }
 
 .make-donation__raised-goal li .icon i.dolar-icon-style {
-    font-family: var(--oxpins-font-three);
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 40px;
@@ -7143,7 +7145,7 @@ body.locked .page-wrapper {
 .make-donation__raised-goal li .content p {
     font-size: 24px;
     color: var(--oxpins-primary);
-    font-family: var(--oxpins-font-three);
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     line-height: 24px;
 }
@@ -7178,6 +7180,7 @@ body.locked .page-wrapper {
 }
 
 .about-three__text-1 {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     margin-right: 5px;
 }
@@ -7267,7 +7270,7 @@ body.locked .page-wrapper {
     color: var(--oxpins-white);
     font-weight: 900;
     line-height: 50px !important;
-    font-family: var(--oxpins-font-two) !important;
+    font-family: Arial, Helvetica, sans-serif !important;
     letter-spacing: -0.04em;
 }
 
@@ -7277,7 +7280,7 @@ body.locked .page-wrapper {
     color: var(--oxpins-white);
     font-weight: 900;
     line-height: 50px;
-    font-family: var(--oxpins-font-two);
+    font-family: Arial, Helvetica, sans-serif;
     letter-spacing: -0.04em;
 }
 
@@ -7513,7 +7516,7 @@ body.locked .page-wrapper {
     font-size: 24px;
     color: white;
     font-weight: 700;
-    font-family: var(--oxpins-font-three);
+    font-family: Arial, Helvetica, sans-serif;
     line-height: 24px;
 }
 
@@ -7766,7 +7769,7 @@ body.locked .page-wrapper {
     font-size: 16px;
     color: var(--oxpins-black);
     line-height: 16px;
-    font-family: var(--oxpins-font-three);
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
 }
 
@@ -8034,7 +8037,7 @@ body.locked .page-wrapper {
 .news-sidebar__date p {
     font-size: 18px;
     color: var(--oxpins-black);
-    font-family: var(--oxpins-font-three);
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     line-height: 18px;
 }
@@ -8349,7 +8352,7 @@ body.locked .page-wrapper {
     font-size: 14px;
     font-weight: 600;
     color: var(--oxpins-gray) !important;
-    font-family: var(--oxpins-font);
+    font-family: Arial, Helvetica, sans-serif;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
 }
@@ -8563,7 +8566,7 @@ body.locked .page-wrapper {
     line-height: 26px;
     color: var(--oxpins-black);
     font-weight: 500;
-    font-family: var(--oxpins-font);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .sidebar-shape-1 {
@@ -8619,7 +8622,7 @@ body.locked .page-wrapper {
 .news-details__date p {
     font-size: 18px;
     color: var(--oxpins-black);
-    font-family: var(--oxpins-font-three);
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     line-height: 18px;
 }
@@ -8700,7 +8703,7 @@ body.locked .page-wrapper {
     font-size: 20px;
     margin-right: 8px;
     font-weight: 900;
-    font-family: var(--oxpins-font-two);
+    font-family: Arial, Helvetica, sans-serif;
     letter-spacing: -0.04em;
 }
 
@@ -8829,7 +8832,7 @@ body.locked .page-wrapper {
     padding-top: 51px;
     padding-bottom: 50px;
     border-radius: var(--oxpins-bdr-radius);
-    font-family: var(--oxpins-font-two);
+    font-family: Arial, Helvetica, sans-serif;
     letter-spacing: -0.04em;
 }
 
@@ -9031,7 +9034,7 @@ body.locked .page-wrapper {
     font-size: 18px;
     color: var(--oxpins-black);
     line-height: 18px;
-    font-family: var(--oxpins-font-three);
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
 }
 
@@ -9317,7 +9320,7 @@ body.locked .page-wrapper {
     font-size: 18px;
     color: var(--oxpins-black);
     line-height: 18px;
-    font-family: var(--oxpins-font-three);
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
 }
 
@@ -9505,7 +9508,7 @@ body.locked .page-wrapper {
     font-size: 18px;
     color: var(--oxpins-black);
     line-height: 18px;
-    font-family: var(--oxpins-font-three);
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
 }
 
@@ -9782,7 +9785,7 @@ body.locked .page-wrapper {
     margin: 0;
     line-height: 22px;
     font-weight: 700;
-    font-family: var(--oxpins-font-three);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .donation-details__organizer-title {
@@ -9961,7 +9964,7 @@ body.locked .page-wrapper {
     padding-right: 50px;
     font-size: 50px;
     color: var(--oxpins-white);
-    font-family: var(--oxpins-font-two);
+    font-family: Arial, Helvetica, sans-serif;
     text-align: right;
     font-weight: 900;
     letter-spacing: -0.04em;
@@ -9995,7 +9998,7 @@ body.locked .page-wrapper {
     font-weight: 900;
     box-shadow: none;
     background-repeat: no-repeat;
-    font-family: var(--oxpins-font-two);
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     letter-spacing: -0.04em;
 }
@@ -10299,7 +10302,7 @@ body.locked .page-wrapper {
     font-size: 18px;
     color: var(--oxpins-primary);
     font-weight: 700;
-    font-family: var(--oxpins-font-three);
+    font-family: Arial, Helvetica, sans-serif;
     line-height: 18px;
 }
 
@@ -10464,7 +10467,7 @@ body.locked .page-wrapper {
 }
 
 #ui-datepicker-div.ui-widget {
-    font-family: var(--oxpins-font);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -10562,7 +10565,7 @@ body.locked .page-wrapper {
     color: var(--oxpins-black);
     font-weight: 700;
     line-height: 24px;
-    font-family: var(--oxpins-font-three);
+    font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 8px;
 }
 
@@ -10763,7 +10766,7 @@ body.locked .page-wrapper {
     font-weight: 700;
     margin-bottom: 2px;
     color: var(--oxpins-primary);
-    font-family: var(--oxpins-font-three);
+    font-family: Arial, Helvetica, sans-serif;
     z-index: 2;
 }
 
@@ -10777,7 +10780,7 @@ body.locked .page-wrapper {
     left: 0;
     right: 0;
     bottom: 0;
-    font-family: var(--oxpins-font-three);
+    font-family: Arial, Helvetica, sans-serif;
     z-index: 1;
 }
 
