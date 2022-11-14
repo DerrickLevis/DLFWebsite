@@ -49,12 +49,12 @@
 
 body {
     font-family: var(--oxpins-font);
-    color: wheat;
-    font-size: 15px;
+    color: ghostwhite;
+    font-size: 19px;
     line-height: 30px;
     font-weight: 500;
-     background: url(../images/backgrounds/fire.jpg) no-repeat;
-     
+     background: url(../images/backgrounds/fire10\ \(copy\).jpg) no-repeat;
+     object-fit: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;  
@@ -102,7 +102,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: var(--oxpins-black);
+    color: var(--oxpins-white-rgb);
     font-family: var(--oxpins-font-two);
     margin: 0;
 }
@@ -149,7 +149,7 @@ ul {
 .container {
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 0px;
+    padding-top: 20px;
 }
 
 @media (min-width: 1200px) {
@@ -410,7 +410,7 @@ ul {
     display: inline-block;
     width: 50px;
     height: 50px;
-    background: var(--oxpins-primary);
+    background:goldenrod;
     position: fixed;
     bottom: 40px;
     right: 40px;
@@ -3335,6 +3335,7 @@ body.locked .page-wrapper {
 }
 
 .causes-one__text {
+    color: darkgoldenrod;
     padding-top: 11px;
     padding-bottom: 21px;
 }
@@ -5119,6 +5120,7 @@ body.locked .page-wrapper {
 }
 
 .footer-widget__non-profit {
+    font-size: 16px;
     position: relative;
     display: block;
 }
@@ -5248,7 +5250,7 @@ body.locked .page-wrapper {
     justify-content: center;
     text-align: center;
     color: var(--oxpins-white);
-    background-color: #212d2b;
+    background-color: var(--oxpins-primary);
     font-size: 15px;
     border-radius: 50%;
     overflow: hidden;
@@ -5301,7 +5303,7 @@ body.locked .page-wrapper {
 .site-footer__bottom {
     position: relative;
     display: block;
-    background-color: #212d2b;
+    background-color: var(--oxpins-primary);
 }
 
 .site-footer__bottom-inner {
@@ -5312,13 +5314,13 @@ body.locked .page-wrapper {
 }
 
 .site-footer__bottom-text {
-    font-size: 15px;
-    color: #98a8a5;
+    font-size: 16px;
+    color: white;
     font-weight: 400;
 }
 
 .site-footer__bottom-text a {
-    color: #98a8a5;
+    color: white;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
 }
@@ -6566,6 +6568,7 @@ body.locked .page-wrapper {
     display: block;
     margin-top: -70px;
     z-index: 1;
+    background-color: goldenrod;
 }
 
 .contact-one__inne {
@@ -6645,12 +6648,14 @@ body.locked .page-wrapper {
 }
 
 .contact-one__sub-title {
+    color: goldenrod;
     font-size: 14px;
     font-weight: 600;
     line-height: 25px;
 }
 
 .contact-one__number {
+    color: gold;
     font-size: 16px;
     font-weight: 700;
     font-family: var(--oxpins-font);
@@ -7501,12 +7506,12 @@ body.locked .page-wrapper {
     font-weight: 900;
     line-height: 36px;
     letter-spacing: -0.04em;
-    color: var(--oxpins-black);
+    color: darkgoldenrod;
 }
 
 .testimonial-three__client-sub-title {
     font-size: 24px;
-    color: var(--oxpins-primary);
+    color: white;
     font-weight: 700;
     font-family: var(--oxpins-font-three);
     line-height: 24px;
@@ -7559,6 +7564,7 @@ body.locked .page-wrapper {
 }
 
 .testimonial-three__text-2 {
+    color: darkgoldenrod;
     font-size: 20px;
     line-height: 36px;
 }
@@ -7634,7 +7640,7 @@ body.locked .page-wrapper {
     bottom: 0;
     left: 0;
     width: 807px;
-    opacity: 0.2;
+    opacity: 0.09;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
@@ -7651,7 +7657,8 @@ body.locked .page-wrapper {
 }
 
 .events-two__text {
-    font-size: 16px;
+    color: darkgoldenrod;
+    font-size: 19px;
     padding-bottom: 41px;
 }
 
@@ -7780,6 +7787,7 @@ body.locked .page-wrapper {
 }
 
 .events-two__meta>li {
+    color: darkgoldenrod;
     font-size: 14px;
     font-weight: 600;
 }
@@ -7915,9 +7923,9 @@ body.locked .page-wrapper {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-color: #202A44;
+    background-color: transparent;
     background-blend-mode: luminosity;
-    opacity: 0.7;
+    opacity: 0.4;
     z-index: -1;
 }
 
@@ -10466,7 +10474,7 @@ body.locked .page-wrapper {
 .gallery-page {
     position: relative;
     display: block;
-    padding: 120px 0 90px;
+    padding: 30px 0 30px;
 }
 
 .gallery-page__single {
@@ -10834,7 +10842,7 @@ body.locked .page-wrapper {
 .contact-three {
     position: relative;
     display: block;
-    background-color: var(--oxpins-extra);
+    background-color: darkgoldenrod;
     padding: 120px 0 180px;
     z-index: 1;
 }
@@ -10997,7 +11005,7 @@ body.locked .page-wrapper {
 }
 
 .about-four__text {
-    font-size: 16px;
+    font-size: 23px;
 }
 
 .about-four__points {
@@ -11036,7 +11044,7 @@ body.locked .page-wrapper {
 
 .about-four__points li .text p {
     font-size: 18px;
-    color: var(--oxpins-black);
+    color: lightgoldenrodyellow;
     font-weight: 600;
 }
 
