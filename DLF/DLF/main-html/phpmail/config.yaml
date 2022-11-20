@@ -1,0 +1,11 @@
+app:
+  db: "donation"
+  user: "root"
+  host: "localhost"
+  pass: "password"
+
+mail:
+  port: 465
+  user: "info@nakimulifoundation.org"
+  host: "server1.thinkxcloud.com"
+  pass: "RfG9REST4KfzXvp"

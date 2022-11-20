@@ -1031,7 +1031,7 @@ ul {
     position: relative;
     font-size: 16px;
     line-height: 30px;
-    color: var(--oxpins-gray);
+    color: ghostwhite;
     letter-spacing: 0;
     font-weight: 500;
     display: -webkit-box;
@@ -1040,7 +1040,7 @@ ul {
     padding: 5px 20px 5px;
     -webkit-transition: 500ms;
     transition: 500ms;
-    background-color: var(--oxpins-white);
+    background-color: goldenrod;
     border-radius: var(--oxpins-bdr-radius);
 }
 
@@ -7643,7 +7643,7 @@ body.locked .page-wrapper {
     bottom: 0;
     left: 0;
     width: 807px;
-    opacity: 0.09;
+    opacity: 0.20;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
