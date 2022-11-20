@@ -53,13 +53,20 @@ body {
     font-size: 19px;
     line-height: 30px;
     font-weight: 500;
-     background: url(../images/backgrounds/fire10\ \(copy\).jpg) no-repeat;
+    /* background-color: #FBB741; */
+    background-color:darkgoldenrod;
+    background-image:url(../images/backgrounds/fire3.jpg);
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
      object-fit: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;  
     
 }
+
+
 
 body.locked {
     overflow: hidden;
@@ -7180,8 +7187,8 @@ body.locked .page-wrapper {
 }
 
 .about-three__text-1 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-family: Helvetica;
+    font-size: 20px;
     margin-right: 5px;
 }
 
@@ -7453,9 +7460,28 @@ body.locked .page-wrapper {
 --------------------------------------------------------------*/
 
 .testimonial-three {
+    /* position: relative;
+    display: block;
+    padding: 0 0 35px; */
     position: relative;
     display: block;
-    padding: 0 0 35px;
+    background-color: darkgoldenrod;
+    padding: 120px 0 180px;
+    z-index: 1;
+}
+.testimonial-three-bg{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    mix-blend-mode: luminosity;
+    opacity: .10;
+    z-index: -1;
+
 }
 
 .testimonial-three .section-title {
@@ -7509,7 +7535,7 @@ body.locked .page-wrapper {
     font-weight: 900;
     line-height: 36px;
     letter-spacing: -0.04em;
-    color: darkgoldenrod;
+    color: navajowhite;
 }
 
 .testimonial-three__client-sub-title {
