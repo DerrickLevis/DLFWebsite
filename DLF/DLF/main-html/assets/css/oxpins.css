@@ -301,7 +301,7 @@ ul {
 }
 
 .section-title__tagline {
-    font-size: 24px;
+    font-size: 40px;
     color: var(--oxpins-primary);
     font-weight: 700;
     line-height: 24px;
@@ -9497,6 +9497,22 @@ body.locked .page-wrapper {
     position: relative;
     display: block;
     padding: 120px 0 120px;
+    background-color: darkgoldenrod;
+    z-index: 1;
+}
+.donate-shape{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    mix-blend-mode: luminosity;
+    opacity: 0.5;
+    z-index: -1;
+
 }
 
 .donation-details__left {
@@ -10886,7 +10902,7 @@ body.locked .page-wrapper {
     background-position: center;
     background-size: cover;
     mix-blend-mode: luminosity;
-    opacity: .10;
+    opacity: 0.10;
     z-index: -1;
 }
 
@@ -10973,6 +10989,21 @@ body.locked .page-wrapper {
     position: relative;
     display: block;
     padding: 40px 0 0;
+    background-color: darkgoldenrod;
+    z-index: 1;
+}
+.about-shape{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    mix-blend-mode: luminosity;
+    opacity: 0.3;
+    z-index: -1;
 }
 
 .about-four__left {
@@ -11034,7 +11065,8 @@ body.locked .page-wrapper {
 }
 
 .about-four__text {
-    font-size: 23px;
+    font-weight: 400;
+    font-size: 18px;
 }
 
 .about-four__points {
